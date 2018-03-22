@@ -37,4 +37,11 @@ public class PhotoPost extends Post {
         System.out.println("\t" + getPhoto() + ": " + getCaption());
         super.display();
     }
+
+    /**
+     * Display information about this post.
+     */
+    public void displayComments() {
+        super.displayComments();
+    }
 }

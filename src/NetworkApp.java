@@ -18,11 +18,16 @@ public class NetworkApp {
         p2.addLike();
         p2.addLike();
         p2.addLike();
+        p2.addComment("ssssasASss", "woooop woooop");
+        p2.addComment("sssASassss", "woooop wosooop");
+        p2.addComment("sssssss", "woooop wasdasdoooop");
+        p2.addComment("ssssASasss", "woooasdasdop woooop");
+
         feed.addPost(p2);
     }
 
     public void displayAllPosts() {
-        feed.display();
+        feed.displayWithComments();
     }
 
     public static void main(String[] args) {

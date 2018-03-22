@@ -107,4 +107,12 @@ public class Post {
         stringBuilder.append("\n").append(getLikes()).append(" likes, ").append(comments.size()).append(" comments.");
         System.out.println(stringBuilder);
     }
+
+    public void displayComments() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String comment : comments.values()) {
+            stringBuilder.append(comment).append("\n");
+        }
+        System.out.println(stringBuilder.toString());
+    }
 }

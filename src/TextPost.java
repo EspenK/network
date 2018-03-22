@@ -33,4 +33,11 @@ public class TextPost extends Post {
         System.out.println("\t" + getMessage());
         super.display();
     }
+
+    /**
+     * Display information about this post.
+     */
+    public void displayComments() {
+        super.displayComments();
+    }
 }
